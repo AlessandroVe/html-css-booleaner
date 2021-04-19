@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+}
+article,#table,footer{
+    margin-left: 3%;
+}
+/* header */
+header{
+    height: 10vh;
+    background-image: url(https://www.basiccontrolacademy.rs/css/img/custom-header-bg.jpg);
+    position: relative;
+}
+header>img{
+    width: 10%;
+    position: absolute;
+    bottom: 5%
+}
+/* SECTION A */
+#section-A>h1{
+    font-size: 50px;
+}
+#section-A>p{
+    font-size: 25px;
+}
+#section-A>p,main{
+    position: relative;
+    left: 20px;
+}
+#section-A span{
+    color: blue;
+}
+#info{
+    font-size: 10px;
+}
+/* SECTION B */
+#section-B>p>span{
+    background-color: yellow;
+}
+
+#section-B>p,ul{
+    width:   1000px;
+    margin-bottom: 50px;
+}
+/* TABLE */
+ #caps{
+     background-color: blue;
+     padding: 3px;
+     height: 20px;
+     width: 50%;
+     color: white;
+ }
+ #caps>div{
+     float: left;
+     width: calc(100%/3);
+ }
+ .lite-color>div{
+    float: left;
+    width: calc(100%/3);
+}
+ .lite-color{
+    background-color:rgba(0,0,255,.2);
+    padding: 3px;
+    height: 40px;
+    width: 50%;
+    line-height: 40px;
+ }
+ .white-color{
+        padding: 3px;
+        height: 40px;
+        width: 50%;
+        line-height: 40px;
+ }
+ .white-color>div{
+    float: left;
+    width: calc(100%/3);
+ }
+ #table{
+     margin-bottom: 50px;
+ }
+ /* FINAL ARTICLE */
+  article>p>span{
+      background-color: yellow;     
+  }
+  article>p{
+      width: 1000px;
+  }
+  /* FOOTER */
+  footer>h2{
+      color: grey;
+  }
+footer>div{
+    color: white;
+    display: block;
+    height: 400px;
+}
+ #first-picture{
+     background-image:url(./img/monitor.jpg) ;
+ }
+ #second-picture{
+    
+}
