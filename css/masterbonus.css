@@ -4,6 +4,11 @@
 article,#table,footer{
     margin-left: 3%;
 }
+/* CENTRAL-BOX */
+#central-box{
+    width: 75%;
+    margin: auto;
+}
 /* header */
 #background{
     position: absolute;
